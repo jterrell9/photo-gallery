@@ -1,0 +1,101 @@
+html, head {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+#titlebar{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    max-height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #52203b;
+    color: #92fcff;
+    box-shadow: 0px 0px 10px #000000;
+    font-size: 25px;
+    border-bottom: 2px solid #a0a0a0;
+}
+#titleText{
+    font-family: "ZCOOL QingKe HuangYou";
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    text-shadow: 5px 5px 10px #000000;
+}
+#image{
+    display: block;
+    padding-top: 100px;
+    height: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loading{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-family: "Source Code Pro";
+    font-size: 50px;
+    color: #8a8a8a;
+}
+#next{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    color: white;
+    font-family: "ZCOOL QingKe HuangYou";
+    text-shadow: 0px 0px 10px #8a8a8a;
+    font-size: 100px;
+    opacity: .5;
+    cursor: pointer;
+}
+#next:hover{
+    opacity: 1;
+}
+#prev{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    color: white;
+    font-family: "ZCOOL QingKe HuangYou";
+    text-shadow: 0px 0px 10px #8a8a8a;
+    font-size: 100px;
+    opacity: .5;
+    cursor: pointer;
+}
+#prev:hover{
+    opacity: 1;
+
+}
+#downloadButton{
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    cursor: pointer;
+    opacity: .5;
+    color: #ffffff;
+    font-family: "Bungee";
+    font-size: 15px;
+}
+#downloadButton:hover{
+    opacity: 1;
+    text-shadow: 5px 5px 10px #000000;
+}
+#counter{
+    position: absolute;
+    bottom: 35px;
+    left: 45%;
+    color: #000000;
+    font-family: "ZCOOL QingKe HuangYou";
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 5px white;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
