@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Terrell Family Photo Gallery</title>
+    <title>Photo Gallery</title>
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
@@ -75,26 +75,16 @@
         while ($photoCounter < $photoCount) {
             $ext = pathinfo($files[$photoCounter], PATHINFO_EXTENSION);
             if($albumCounter == ($albumCount - 1) && $photoCounter == ($photoCount - 1)){
-//                if($ext == 'jpg'){
-                    echo "\"$files[$photoCounter]\"]\n\t\t];";
-//                }else{
-//                    echo "]\n];";
-//                }
+                echo "\"$files[$photoCounter]\"]\n\t\t];";
                 $photoCounter++;
                 break;
             }
             if($photoCounter == ($photoCount - 1)){
-//                if($ext == 'jpg'){
-                    echo "\"$files[$photoCounter]\"],\n";
-//                }else{
-//                    echo "],\n";
-//                }
+                echo "\"$files[$photoCounter]\"],\n";
                 $photoCounter++;
                 break;
             }
-//            if($ext == 'jpg') {
-                echo "\"$files[$photoCounter]\", ";
-//            }
+            echo "\"$files[$photoCounter]\", ";
             $photoCounter++;
         }
         $albumCounter++;
@@ -106,7 +96,8 @@
     var selectedAlbum = 0;
     var albumSize = 0;
     var counter = 1;
-
+    
+    //JQuery to create interactive animated UI
     $(function() {
 
         //declare jquery DOM Tree elements variables
