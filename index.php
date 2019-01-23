@@ -17,7 +17,7 @@
 </head>
 <body>
 <div id="titlebar">
-    <div id="titleText">Terrell Family Photo Gallery</div>
+    <div id="titleText">Photo Gallery</div>
     <img src="title-logo.jpg" alt="title-logo" id="title-logo" />
 </div>
 <div id="hideTab">↑</div>
